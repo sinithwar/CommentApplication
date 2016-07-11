@@ -1,0 +1,7 @@
+<div class='form-edit form-group'>
+<%= form_for @comment do |f| %>
+  <h3 class='form-ele-edit title'>Edit a Comment</h3><br>
+  <%= f.text_area :comment, :class => 'form-control center-block' %><br>
+  <%= f.submit :class => 'form-ele-edit submit btn btn-success' %>
+<% end %>
+<div>

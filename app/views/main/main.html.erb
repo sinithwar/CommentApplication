@@ -1,0 +1,14 @@
+<% unless @comment.blank? %>
+<% @comment.each do |comment| %>
+	<div class="cust-container">
+		<h3 class="name"><%= comment.name %></h3>
+		<p class="comment lead"><%= comment.comment %></p>
+		<div class='text-center'>
+		<%= link_to "Update", edit_comment_path(comment), :class => 'comment-btn btn btn-warning' %>
+		<%= link_to "Delete", comment, :method => :delete, :class => 'comment-btn btn btn-danger' %>
+	  </div>
+	</div>
+<% end %>
+<% else %>
+	<div> There are currently no comments </div>
+<% end %>

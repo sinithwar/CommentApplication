@@ -1,0 +1,70 @@
+html, body {
+  background: rgba(0, 150, 255, 0.9); }
+  html .cust-container, body .cust-container {
+    background: white;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+  html .cust-form, body .cust-form {
+    background: white;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+  html .form-edit, body .form-edit {
+    background: white;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+
+#cust-container {
+  width: 50vw;
+  position: absolute; }
+
+.cust-container {
+  margin: 20px 0px 20px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 40vw;
+  padding: 10px; }
+  .cust-container .name {
+    border-bottom: 1px solid black;
+    margin-left: 10px; }
+  .cust-container .comment {
+    text-indent: 10px; }
+  .cust-container .comment-btn {
+    width: 80px; }
+
+.cust-form {
+  width: 200px;
+  margin-left: 70vw;
+  position: absolute;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px; }
+  .cust-form .form-ele {
+    margin: 10px; }
+  .cust-form .title {
+    border-bottom: 1px solid black; }
+  .cust-form textarea {
+    border-radius: 5px;
+    resize: none;
+    height: 30vh; }
+
+.form-edit {
+  width: 80vw;
+  padding: 10px;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center; }
+  .form-edit .form-ele-edit {
+    margin: 10px; }
+  .form-edit .title {
+    border-bottom: 1px solid black; }
+  .form-edit textarea {
+    border-radius: 5px;
+    resize: none;
+    height: 30vh;
+    width: 80%; }
+
+/*# sourceMappingURL=main.css.map */

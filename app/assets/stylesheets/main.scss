@@ -1,0 +1,85 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body{
+	background: rgba(0,150,255,0.9);
+	.cust-container{
+		background: white;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+	.cust-form{
+		background: white;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+	.form-edit{
+		background: white;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+}
+#cust-container{
+	width: 50vw;
+	position: absolute;
+}
+.cust-container{
+	margin: 20px 0px 20px auto;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 40vw;
+	padding: 10px;
+	.name{
+	  border-bottom: 1px solid black;
+	  margin-left: 10px;
+	}
+	.comment{
+		text-indent: 10px;
+	}
+	.comment-btn{
+		width: 80px;
+	}
+}
+.cust-form{
+	width: 200px;
+	margin-left: 70vw;
+	position: absolute;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	.form-ele{
+		margin: 10px;
+	}
+	.title{
+	  border-bottom: 1px solid black;
+	}
+	textarea{
+		border-radius: 5px;
+		resize: none;
+		height: 30vh;
+	}
+}
+.form-edit{
+	width: 80vw;
+	padding: 10px;
+	margin: 100px auto;
+	border: 1px solid gray;
+	border-radius: 5px;
+	text-align: center;
+	.form-ele-edit{
+		margin: 10px;
+	}
+	.title{
+	  border-bottom: 1px solid black;
+	}
+	textarea{
+		border-radius: 5px;
+		resize: none;
+		height: 30vh;
+		width: 80%;
+	}
+}

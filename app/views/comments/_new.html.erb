@@ -1,0 +1,10 @@
+<div class='cust-form'>
+<%= form_for :comments, :url => comments_path, :class => 'form-group' do |f| %>
+  <label class='form-ele title'>Make a Comment</label><br>
+  <%= f.label :name, :class => 'form-ele name' %><br>
+  <%= f.text_field :name, :class => 'form-control' %>
+  <label class='form-ele'>Comment</label>
+  <%= f.text_area :comment, :class => 'form-control' %>
+  <%= f.submit :class => 'form-ele submit' %>
+<% end %>
+<div>
